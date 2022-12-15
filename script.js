@@ -6,7 +6,7 @@ for(var i = 0; i < addbtn.length; i++)
 function addnewcontent()
 {
     var el = document.createElement('tr');
-    el.innerHTML = "<td>"+getContent()+"</td><td><button class='closebtn'>X<button></td>";
+    el.innerHTML = "<td>"+getContent()+"</td><td><button class='closebtn'>x<button></td>";
     this.closest('tfoot').parentNode.children[1].appendChild(el);
     el.lastChild.firstChild.addEventListener("click",closeThis);
     var classname = getClassname(this);
