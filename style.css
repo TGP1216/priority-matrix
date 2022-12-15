@@ -71,7 +71,7 @@ body
 .table tbody tr td
 {
     word-break: break-all;
-    color: rebeccapurple;
+    color: black;
     font-family: Consolas;
     font-size: 22px;
     text-transform: capitalize;
@@ -85,14 +85,14 @@ body
 {
     box-shadow: inset 3px 3px 20px black,
     1px 1px 20px black;
-    background: black;
+    background: white;
     transition: background 0.2s;
 }
 .table2:hover
 {
     box-shadow: inset 3px 3px 20px black,
     1px 1px 20px black;
-    background: white;
+    background: white
     transition: background 0.2s;
 }
 .table3:hover
@@ -106,7 +106,7 @@ body
 {
     box-shadow: inset 3px 3px 20px black,
     1px 1px 20px black;
-    background: black;
+    background: white;
     transition: background 0.2s;
 }
 .table2
@@ -121,22 +121,16 @@ body
 {
     background-color: rgb(252, 89, 89);
 }
-
 .closebtn
 {
     padding: 4px 10px;
-    background: linear-gradient(45deg,black 18px,red 5px);
+    background:  red;
     color: white;
     border: none;
     border-radius: 50%;
     font-weight: bolder;
     font-size: 12px;
     
-}
-.closebtn:hover
-{
-    background: linear-gradient(135deg,black 18px,red 5px);
-    transition: all 0.3s;
 }
 .addbtn
 {
@@ -151,7 +145,7 @@ body
 .addbtn:hover
 {
     border: 1px solid white;
-    background: rgb(252, 90, 9);
+    background: green;
     color: white;
     transition: all 0.3s;
 }
